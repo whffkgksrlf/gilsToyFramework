@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.common.login.dao.MemberDao">
+	<select id="getUser" resultType="java.util.HashMap">
+		SELECT	US_CD
+		,		US_NM
+		FROM	TMDM_M_US
+		WHERE	US_CD = 'bbb2104'
+	</select>
+	
+	
+	<update id="updtUser">
+		UPDATE	US_CD 
+		SET		US_NM = #{usernm}
+		FROM	TMDM_M_US
+		WHERE	1=1
+		AND		US_CD = 'bbb2104'
+	</update>
+	
+	
+</mapper>

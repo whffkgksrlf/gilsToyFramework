@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/com/common/config/DataSourceConfig.java=EUC-KR
+encoding//src/com/common/config/SecurityConfig.java=UTF-8
+encoding//src/com/common/login/service/impl/MemberServiceImpl.java=EUC-KR
+encoding//src/login/login.jsp=UTF-8
